@@ -1,0 +1,11 @@
+/core/src/build/
+
+*.exe
+*.dll
+*.so
+*.a
+*.lib
+
+.vscode/
+
+CMakeUserPresets.json
