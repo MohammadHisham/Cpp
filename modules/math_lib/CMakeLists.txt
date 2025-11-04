@@ -9,4 +9,4 @@ add_library(${MATH} ${LIB_FILES})
 # print message to check the file
 message("Iam in math_lib direction :)")
 # Tell every one (PUBLIC) link or compile library to add its header file to path
-target_include_directories(${PROJECT_NAME} PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+target_include_directories(${MATH} PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
